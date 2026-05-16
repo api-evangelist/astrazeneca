@@ -7,11 +7,73 @@ tags:
   - Pharmaceutical
   - Biotechnology
   - Healthcare
-description: 'A British-Swedish multinational pharmaceutical and biotechnology company focused on oncology, cardiovascular, renal, metabolism, and respiratory therapies. One of the largest pharmaceutical companies in the world with a growing presence in immunology and rare diseases.'
+description: >-
+  AstraZeneca is a British-Swedish multinational pharmaceutical and
+  biotechnology company focused on oncology, cardiovascular, renal,
+  metabolism, and respiratory therapies. AstraZeneca does not publish a
+  general developer portal or commercial public APIs; technology integration
+  is delivered through enterprise partner programs, clinical trial data
+  portals such as clinicaltrials.gov and the Vivli platform, and EDI/x12
+  channels used by distributors and pharmacy benefit managers.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.astrazeneca.com/
+  - type: ClinicalTrials
+    url: https://www.astrazenecaclinicaltrials.com/
+  - type: DataSharing
+    url: https://www.astrazenecaclinicaltrials.com/transparency/data-sharing/
+  - type: Partnerships
+    url: https://www.astrazeneca.com/partnerships.html
+  - type: Suppliers
+    url: https://www.astrazeneca.com/suppliers.html
+  - type: PrivacyPolicy
+    url: https://www.astrazeneca.com/legal/integrated-privacy-notice.html
+  - type: TermsOfService
+    url: https://www.astrazeneca.com/legal/terms-of-use.html
+  - type: Contact
+    url: https://www.astrazeneca.com/contact-us.html
+  - type: Features
+    data:
+      - name: Clinical Trial Information
+        description: Clinical trial registrations and results are publicly accessible via clinicaltrials.gov, the EU Clinical Trials Register, and AstraZeneca's own trial site.
+      - name: Patient-Level Data Sharing
+        description: Anonymized patient-level clinical trial data is made available to qualified researchers through the Vivli platform.
+      - name: Medical Information Portal
+        description: Healthcare professionals can request product and safety information via country-specific medical information sites.
+      - name: Distributor and Wholesaler EDI
+        description: Drug ordering, returns, chargebacks, and shipment notifications are exchanged with distributors via standardized x12 EDI transactions.
+      - name: Pharmacovigilance Submissions
+        description: Adverse-event reports are received via regulatory channels (E2B, FAERS) rather than a public API.
+  - type: UseCases
+    data:
+      - name: Clinical Research Data Discovery
+        description: Find and link AstraZeneca-sponsored studies into clinical research and evidence-generation platforms.
+      - name: Pharma Supply Chain Integration
+        description: Distributors integrate order, shipment, and chargeback flows with AstraZeneca's commercial supply chain via EDI.
+      - name: Medical Affairs Engagement
+        description: HCPs and medical-information vendors retrieve dosing, contraindication, and interaction information for clinical decision support.
+      - name: Real-World Evidence Studies
+        description: Researchers use the Vivli platform to combine AstraZeneca trial data with external real-world evidence sources.
+  - type: Compliance
+    data:
+      - name: HIPAA
+        description: U.S. operations involving protected health information are subject to HIPAA Privacy and Security Rules.
+      - name: GDPR
+        description: European patient and trial data handling is governed by the EU General Data Protection Regulation.
+      - name: FDA 21 CFR Part 11
+        description: Electronic records and signatures supporting AstraZeneca's regulated processes follow FDA 21 CFR Part 11 requirements.
+      - name: GxP (GMP / GCP / GLP / GVP)
+        description: Manufacturing, clinical, lab, and pharmacovigilance practices follow applicable Good Practice standards.
+      - name: ICH E2B
+        description: Adverse-event reporting follows the ICH E2B(R3) standard for individual case safety reports.
+plansReconciled: false
+rateLimitsReconciled: false
+finopsReconciled: false
+position: Consuming
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
