@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "astrazeneca",
+    "captured_at": "2026-10-11T180726",
+    "source_url": "https://www.astrazeneca.com/",
+    "source_type": "Website",
+    "file": "astrazeneca-2026-10-11T180726.png",
+    "bytes": 404270,
+    "capture": "playwright-local"
+  }
+]
